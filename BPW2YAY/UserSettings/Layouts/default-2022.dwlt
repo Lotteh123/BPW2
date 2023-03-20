@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 284.40002
     height: 724
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -1057,10 +1057,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1e9c0000
-      m_LastClickedID: 39966
-      m_ExpandedIDs: 0c20feffe622feff3c2cfeff842efeff0afbffffce710000569c0000
+      scrollPos: {x: 0, y: 336.8}
+      m_SelectedIDs: b2710000
+      m_LastClickedID: 29106
+      m_ExpandedIDs: f0faffff0afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1491,9 +1491,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 463.4591, y: 122.15447, z: 259.60574}
+    m_Target: {x: 521.80914, y: 314.27982, z: 353.65884}
     speed: 2
-    m_Value: {x: 463.4591, y: 122.15447, z: 259.60574}
+    m_Value: {x: 521.80914, y: 314.27982, z: 353.65884}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1539,13 +1539,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18945245, y: 0.7776248, z: -0.27709526, w: -0.5316567}
+    m_Target: {x: 0.021767586, y: 0.9769466, z: -0.17354938, w: 0.1225618}
     speed: 2
-    m_Value: {x: -0.18986474, y: 0.77681357, z: -0.27680618, w: -0.5328137}
+    m_Value: {x: 0.022027455, y: 0.97674257, z: -0.17351314, w: 0.12402466}
   m_Size:
-    m_Target: 185.0149
+    m_Target: 92.592155
     speed: 2
-    m_Value: 193.73288
+    m_Value: 88.604935
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1616,23 +1616,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StarterAssets/FirstPersonController/Scripts
+    - Assets/WorldMaterialsFree/URPMaterials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/StarterAssets/FirstPersonController/Scripts
+  - Assets/WorldMaterialsFree/URPMaterials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba990000
-    m_LastClickedID: 39354
-    m_ExpandedIDs: 000000005c750000667500008c7a0000
+    scrollPos: {x: 0, y: 126.20001}
+    m_SelectedIDs: ca750000
+    m_LastClickedID: 30154
+    m_ExpandedIDs: 00000000fe730000007400008e750000be750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1660,7 +1660,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 00000000fe73000000740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
