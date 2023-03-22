@@ -1,0 +1,923 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.5f1 (551d45108343) revision 5578053'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32469 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lotte/OneDrive/Documenten/HKU/BPSLAY2/BPW2/BPW2YAY
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56951
+Successfully changed project path to: C:/Users/lotte/OneDrive/Documenten/HKU/BPSLAY2/BPW2/BPW2YAY
+C:/Users/lotte/OneDrive/Documenten/HKU/BPSLAY2/BPW2/BPW2YAY
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10788] Host "[IP] 10.3.21.76 [Port] 0 [Flags] 2 [Guid] 2092049281 [EditorId] 2092049281 [Version] 1048832 [Id] WindowsEditor(7,LottesLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10788] Host "[IP] 10.3.21.76 [Port] 0 [Flags] 2 [Guid] 2092049281 [EditorId] 2092049281 [Version] 1048832 [Id] WindowsEditor(7,LottesLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 10.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.5f1 (551d45108343)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lotte/OneDrive/Documenten/HKU/BPSLAY2/BPW2/BPW2YAY/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005248 seconds.
+- Loaded All Assemblies, in  0.265 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (150ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+				TypeCache.Initialize (108ms)
+					TypeCache.ScanAssembly (106ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.134 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (179ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		LoadAllAssembliesAndSetupDomain (953ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (731ms)
+				TypeCache.Initialize (300ms)
+					TypeCache.ScanAssembly (295ms)
+				ResolveRequiredComponents (9ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6142 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (1.6 MB). Loaded Objects now: 6618.
+Memory consumption went from 0.95 GB to 0.94 GB.
+Total: 4.001500 ms (FindLiveObjects: 0.402700 ms CreateObjectMapping: 0.291600 ms MarkObjects: 2.650800 ms  DeleteObjects: 0.655100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 145097.917576 seconds.
+  path: Assets/Materials/StoneTexture 2.mat
+  artifactKey: Guid(94b8541021d2cca47bfa6bc7f1489461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StoneTexture 2.mat using Guid(94b8541021d2cca47bfa6bc7f1489461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c8c5745e493af3e7336ba10186d80e') in 0.252618 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/StoneTexture 3.mat
+  artifactKey: Guid(52c5d4bbe79f22d4a8507174a0ab7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StoneTexture 3.mat using Guid(52c5d4bbe79f22d4a8507174a0ab7261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247503756217aa0d506b9e556aacef6a') in 0.013096 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.822 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.008 seconds
+Domain Reload Profiling:
+	ReloadAssembly (161ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (659ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+				TypeCache.Initialize (218ms)
+					TypeCache.ScanAssembly (214ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.6 MB). Loaded Objects now: 6716.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 5.141700 ms (FindLiveObjects: 0.470100 ms CreateObjectMapping: 0.399200 ms MarkObjects: 3.449600 ms  DeleteObjects: 0.821800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.789 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (144ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (643ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+				TypeCache.Initialize (223ms)
+					TypeCache.ScanAssembly (218ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.6 MB). Loaded Objects now: 6732.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 4.070000 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.265200 ms MarkObjects: 3.025200 ms  DeleteObjects: 0.352500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lotte\OneDrive\Documenten\HKU\BPSLAY2\BPW2\BPW2YAY\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.799 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.005 seconds
+Domain Reload Profiling:
+	ReloadAssembly (147ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (651ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+				TypeCache.Initialize (208ms)
+					TypeCache.ScanAssembly (203ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.6 MB). Loaded Objects now: 6748.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 3.805500 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.236500 ms MarkObjects: 2.778500 ms  DeleteObjects: 0.439100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 821.247932 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 0-3-0.asset
+  artifactKey: Guid(6857886253ab0384c855b62da79b22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 0-3-0.asset using Guid(6857886253ab0384c855b62da79b22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9316237f4d8c3499abd8d24830f07be') in 0.052242 seconds 
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.057735 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Dirt_002a 1K.png
+  artifactKey: Guid(5020511136143724ea1108909fdadc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Dirt_002a 1K.png using Guid(5020511136143724ea1108909fdadc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449a0565140267d72ad5376716ad7e1f') in 0.010136 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004538 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 1-2-0.asset
+  artifactKey: Guid(128cb37433d6e954aa5afc7f25cdfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 1-2-0.asset using Guid(128cb37433d6e954aa5afc7f25cdfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bd311b42d1d8ab44947a87e0054eb4') in 0.026082 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 2-2-0.asset
+  artifactKey: Guid(7e038da9be4283c428ff52333a38fac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 2-2-0.asset using Guid(7e038da9be4283c428ff52333a38fac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef491e95bbd30ab0d2d540c57620978') in 0.023386 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 2-3-0.asset
+  artifactKey: Guid(f3909ca1032de34458f7272245f55e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 2-3-0.asset using Guid(f3909ca1032de34458f7272245f55e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feabc281588acae9dd93a5d621e1b25') in 0.023859 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.049464 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Sand_001 1K.png
+  artifactKey: Guid(049faeb2cfb53824f99ad440b0884816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Sand_001 1K.png using Guid(049faeb2cfb53824f99ad440b0884816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27093831155f25ce51657af5f66afdba') in 0.012021 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006035 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 1K.png
+  artifactKey: Guid(328744a432075d64eb27996e4ff7c550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 1K.png using Guid(328744a432075d64eb27996e4ff7c550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f373d5b5011b41c4810da0a48dd73bb') in 0.013014 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Rocks_001 1K.png
+  artifactKey: Guid(a4368b8ffd49f9246964ebbda9f0bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Rocks_001 1K.png using Guid(a4368b8ffd49f9246964ebbda9f0bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040f63a85e962e4b08caff2339ae09c0') in 0.013063 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Abandoned_002 1K.png
+  artifactKey: Guid(ba9569097e4cc2e4a821e2521bffe3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Abandoned_002 1K.png using Guid(ba9569097e4cc2e4a821e2521bffe3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168aa0d577b8aa2cebc5cdc09c26138d') in 0.009695 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Sand_001 1K.png
+  artifactKey: Guid(937e2b9ff53f9894b87e3d6d1954ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Sand_001 1K.png using Guid(937e2b9ff53f9894b87e3d6d1954ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd5fb168c410cb6ff27dc9b067520b1') in 0.009723 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.052998 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Dirt_001 2K.png
+  artifactKey: Guid(179e0c2aaf5171543a52e98d8e15360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Dirt_001 2K.png using Guid(179e0c2aaf5171543a52e98d8e15360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7877f1699651bc8f325c5eddbf40104') in 0.013045 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Grass_001a 2K.png
+  artifactKey: Guid(59e11b4d76877334080d7b2dfec3f51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Grass_001a 2K.png using Guid(59e11b4d76877334080d7b2dfec3f51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeba7e6b6a379cb0c3baf11e4c2b3d7') in 0.011308 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.097757 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Sand_001 2K.png
+  artifactKey: Guid(1294c03d8a368554486b73ee57230068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Sand_001 2K.png using Guid(1294c03d8a368554486b73ee57230068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558843d258f0b5c43222c497014370d7') in 0.012710 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 2K.png
+  artifactKey: Guid(48bc4a92dccd51241a882a9f682bfb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 2K.png using Guid(48bc4a92dccd51241a882a9f682bfb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1475048d9f8d25ad2e9e0a097cb60989') in 0.010545 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.473757 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Dirt_001_Mossy 512.png
+  artifactKey: Guid(119c901765305d24aabfb0056fc85fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Dirt_001_Mossy 512.png using Guid(119c901765305d24aabfb0056fc85fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b714043c31165dff5ba7942edfc5b5') in 0.011945 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.211006 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Cliff_001 512.png
+  artifactKey: Guid(52ac2f0d3701b244e9cdb2c827e5a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Cliff_001 512.png using Guid(52ac2f0d3701b244e9cdb2c827e5a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861bf9ac53ebb49ab3f835d63cbdbc5e') in 0.010662 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 Sand_001 2K.png
+  artifactKey: Guid(54bf3e6ccedae7240b18a94f97d4b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 Sand_001 2K.png using Guid(54bf3e6ccedae7240b18a94f97d4b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc307fdd9fa0c265e50b4afd6b9d8ae') in 0.010522 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.210522 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_height.png
+  artifactKey: Guid(41ee5389a45424b4a80528258a4c236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_height.png using Guid(41ee5389a45424b4a80528258a4c236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4378191e025dc505418cb42d2e1f2582') in 0.010402 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Normal.png
+  artifactKey: Guid(429af1c44709aab47a20350761071b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Normal.png using Guid(429af1c44709aab47a20350761071b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9204004bff560735f32c5a36d8ae917') in 0.019101 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.063618 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BasketWeaveBricks/BasketWeaveBricks_Roughness.png
+  artifactKey: Guid(34625fdce6a77a543804361b473cd27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BasketWeaveBricks/BasketWeaveBricks_Roughness.png using Guid(34625fdce6a77a543804361b473cd27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b894c3797db8e222f2ed55c9deb12450') in 0.011672 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.154057 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Height.png
+  artifactKey: Guid(1ec47b3300477f040b5d59f8fc7497dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Height.png using Guid(1ec47b3300477f040b5d59f8fc7497dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4abb851ed36da9ec93d207495d9dfc2') in 0.009691 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Normal.png
+  artifactKey: Guid(2a6a7e98a8983324e8aeca94a705844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_Normal.png using Guid(2a6a7e98a8983324e8aeca94a705844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abda543337edc002dc1c0826d63b8c8') in 0.012704 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.210435 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertSandBrick/DesertSandBricks_height.png
+  artifactKey: Guid(30b8291384f7e02419ca3179c716dec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertSandBrick/DesertSandBricks_height.png using Guid(30b8291384f7e02419ca3179c716dec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b61b3039fa758671142c2c44cb0147f') in 0.011614 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.090803 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassClumps/GrassClumps_smoothness.png
+  artifactKey: Guid(1c6ef37185037f6449d46a00eae8d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassClumps/GrassClumps_smoothness.png using Guid(1c6ef37185037f6449d46a00eae8d818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df40860fa9d4840f30e1e21276398a8d') in 0.010435 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.802401 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertCliffRock/DesertCliffRock_Albedo.png
+  artifactKey: Guid(0ff3d736d50e41a4c9f26cfbfd0672e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertCliffRock/DesertCliffRock_Albedo.png using Guid(0ff3d736d50e41a4c9f26cfbfd0672e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b20bb6bf097c1b5d0dbd36bc2e9d1a3') in 0.009920 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.912577 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassGravel/GrassGravel_ao.png
+  artifactKey: Guid(08abe4ebe80f2a8419b792acb0d20542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassGravel/GrassGravel_ao.png using Guid(08abe4ebe80f2a8419b792acb0d20542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9accb67515da9539b5c68b5a13977704') in 0.014973 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.048802 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/WoodenFlooring/WoodenFlooring_Normal.png
+  artifactKey: Guid(01b613412f766b04e8c6f4165aef820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/WoodenFlooring/WoodenFlooring_Normal.png using Guid(01b613412f766b04e8c6f4165aef820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b54414f32cad632b2801c4e5c3f8aa') in 0.012600 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.385861 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassClumps/GrassClumps_Yfliped_normal.png
+  artifactKey: Guid(384a7c41f40c1eb42af0c794cb38743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassClumps/GrassClumps_Yfliped_normal.png using Guid(384a7c41f40c1eb42af0c794cb38743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614a2073ef950ebb409c3989e750d134') in 0.030990 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.048799 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_Smoothness.png
+  artifactKey: Guid(4034baf17b6feb1478ae557e38edd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_Smoothness.png using Guid(4034baf17b6feb1478ae557e38edd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b58b61bba7006dda7e1778388b087f') in 0.036796 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.224309 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Albedo.png
+  artifactKey: Guid(450abdfc31012ee45a60a12a63706bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Albedo.png using Guid(450abdfc31012ee45a60a12a63706bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f237fe0d239d2e4ff1d481b86d437854') in 0.022045 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030001 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_Albedo.png
+  artifactKey: Guid(47e19e96c5e387843ba535f4af8e8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_Albedo.png using Guid(47e19e96c5e387843ba535f4af8e8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26caf15a624bf49a2bd73f9eda294508') in 0.011340 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024317 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_smoothness.png
+  artifactKey: Guid(50f22ded93bf5a3459011d427639a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_smoothness.png using Guid(50f22ded93bf5a3459011d427639a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f03a4e416e759e812c590d5bad6899c') in 0.013943 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.853342 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassClumps/GrassClumps_roughness.png
+  artifactKey: Guid(5cf8ace01dc2f4544a271b07596e820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassClumps/GrassClumps_roughness.png using Guid(5cf8ace01dc2f4544a271b07596e820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40252a103181ceebb26dbea26bebab78') in 0.010110 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016885 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 ForestGround_001 2K.png
+  artifactKey: Guid(5fc895f5044dd9f46a5ec9e4725cf3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 ForestGround_001 2K.png using Guid(5fc895f5044dd9f46a5ec9e4725cf3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3598253316cf1793c2ccb31096a39b') in 0.011581 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001910 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PlainFabric/PlainFabric_height.png
+  artifactKey: Guid(62996a92e08e62f449da2ef36de6de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PlainFabric/PlainFabric_height.png using Guid(62996a92e08e62f449da2ef36de6de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c476902628e4199331c0aefe6725556') in 0.012032 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021710 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PlainFabric/PlainFabric_Smoothness.png
+  artifactKey: Guid(661384a594b26fe4e96b31017fbea914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PlainFabric/PlainFabric_Smoothness.png using Guid(661384a594b26fe4e96b31017fbea914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e943789e0d41b09ae1500b6a01e61ae6') in 0.011563 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032486 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_height.png
+  artifactKey: Guid(68230a5a72b27b34da2c8bdf279cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_height.png using Guid(68230a5a72b27b34da2c8bdf279cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735d3d771a16119d7977abbb45e1aca4') in 0.011315 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.612618 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/CoarseConcrete/CoarseConcrete_roughness.png
+  artifactKey: Guid(6ab6ea3e34b782d42be5cd1886524ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/CoarseConcrete/CoarseConcrete_roughness.png using Guid(6ab6ea3e34b782d42be5cd1886524ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81d4c0d1d426f221bc69bf79d8b56ed') in 0.011225 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033095 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Rocks_001 512.png
+  artifactKey: Guid(7198870afb04d514d9c69bf52fe69607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Rocks_001 512.png using Guid(7198870afb04d514d9c69bf52fe69607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9a06261f09ff2edadd2a721af71ee4') in 0.013957 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.367618 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Smoothness.png
+  artifactKey: Guid(8113a93f4bc2dc04badf36c17127e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Smoothness.png using Guid(8113a93f4bc2dc04badf36c17127e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587761e442030a1b3591e0d808df360b') in 0.011126 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014515 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertCliffRock/DesertCliffRock_normal.png
+  artifactKey: Guid(849cfd9762b661d43bde99a183d4ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertCliffRock/DesertCliffRock_normal.png using Guid(849cfd9762b661d43bde99a183d4ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681773e02d66875d42a007428c024f30') in 0.014531 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017075 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_normal.png
+  artifactKey: Guid(86791057ef535404f8a7a60ea2a81d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/SimpleRedBricks/SimpleRedBricks_normal.png using Guid(86791057ef535404f8a7a60ea2a81d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f410e16f7fa9f47837bb625ff533895') in 0.010256 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.272169 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_albedo.png
+  artifactKey: Guid(8a3ef1722a8fd3a4c8353e18116e7a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_albedo.png using Guid(8a3ef1722a8fd3a4c8353e18116e7a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f474940eb63abce3a12fb64ad4a69643') in 0.009981 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022577 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Rocks_001 2K.png
+  artifactKey: Guid(8db2f4c31f3614741afc75520919d060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Rocks_001 2K.png using Guid(8db2f4c31f3614741afc75520919d060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd02ce3e2a6c9f0ff8e4dab7ca66e407') in 0.011083 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019911 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Rocks_001 2K.png
+  artifactKey: Guid(90fc01534d944d74f9d77554559ce7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Rocks_001 2K.png using Guid(90fc01534d944d74f9d77554559ce7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19374f56df6a57e98355746975f6181') in 0.012634 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.302607 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_AO.png
+  artifactKey: Guid(9ae39f2e8316a2246a5a4c3bf6c2ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_AO.png using Guid(9ae39f2e8316a2246a5a4c3bf6c2ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb69bb2b9729168df2f95b11aee47f1') in 0.009857 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039067 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_YFliped_Normal.png
+  artifactKey: Guid(a4a37f7a6ffedc448ad87a9046c1534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/ClumpMud/ClumpMud_YFliped_Normal.png using Guid(a4a37f7a6ffedc448ad87a9046c1534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452526de58798dc69cf7aec86d38e61f') in 0.011566 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024497 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/CoarseConcrete/CoarseConcrete_height.png
+  artifactKey: Guid(aa9dea029b072b042bf02fc464e0b12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/CoarseConcrete/CoarseConcrete_height.png using Guid(aa9dea029b072b042bf02fc464e0b12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab36aa1f21b6c324dea33a738d76dd0') in 0.010964 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.287144 seconds.
+  path: Assets/AssetsFromOthers/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-0.exr
+  artifactKey: Guid(ac547032e7ab2874b8b53ccbfec07526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-0.exr using Guid(ac547032e7ab2874b8b53ccbfec07526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4ae402270b716e87a93af0a2113664') in 0.150529 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.267673 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Path_001 Sand_001 512.png
+  artifactKey: Guid(b65b9fa900443db40840aec88c7873fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Path_001 Sand_001 512.png using Guid(b65b9fa900443db40840aec88c7873fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62acbea951b00d3cff11c93232761c4f') in 0.009897 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028612 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Metallic.png
+  artifactKey: Guid(be2f8d770f6be0d4fae301de933abab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Metallic.png using Guid(be2f8d770f6be0d4fae301de933abab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3f1221ec2a013bb58d191b4f6e56da') in 0.009009 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039740 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_YFliped_normal.png
+  artifactKey: Guid(bedfc1b580f2a5f4d9bc40c2d7872747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_YFliped_normal.png using Guid(bedfc1b580f2a5f4d9bc40c2d7872747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4f01f9bddce83578befc2f97dc23ef') in 0.013797 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.314454 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_height.png
+  artifactKey: Guid(c4aabfcb8fc834541a39eb5e5ec2a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_height.png using Guid(c4aabfcb8fc834541a39eb5e5ec2a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadbb74f13ec9325d82175c5e8487f43') in 0.011254 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034320 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Abandoned_004 1K.png
+  artifactKey: Guid(c5f895b6ca1a7ad4c85b14534bf254ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Abandoned_004 1K.png using Guid(c5f895b6ca1a7ad4c85b14534bf254ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f19637556abae67218200be474919b') in 0.015370 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001173 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/WavySand/WavySand_height.png
+  artifactKey: Guid(c75f44c256843364ab15efa43a7ca831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/WavySand/WavySand_height.png using Guid(c75f44c256843364ab15efa43a7ca831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3e7b12c3554e37e678e4baaabaf0ed') in 0.020673 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.626022 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_Smoothness.png
+  artifactKey: Guid(d425c3abb087a074eb0002c7ad4c38af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_Smoothness.png using Guid(d425c3abb087a074eb0002c7ad4c38af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecae5ea5a8f2fa91fb12efff49df9f20') in 0.010913 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038608 seconds.
+  path: Assets/AssetsFromOthers/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e540f8fc46ab5fbb9f67990793570eb') in 0.009979 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertSandBrick/DesertSandBricks_YFliped_Normal.png
+  artifactKey: Guid(db261c095f99c104aaf9df8823505787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DesertSandBrick/DesertSandBricks_YFliped_Normal.png using Guid(db261c095f99c104aaf9df8823505787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e617b445fcf3d408688cc44d8a1b546') in 0.012633 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011311 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Rocks_001_Mossy 512.png
+  artifactKey: Guid(de43761ab1ee3844db1d820dd91ea7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Rocks_001_Mossy 512.png using Guid(de43761ab1ee3844db1d820dd91ea7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb43e8fd36b3c4dbde1b423c5a7a464') in 0.011511 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.253059 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Height.png
+  artifactKey: Guid(df3add141d9bccf4e97ff6ab6c319438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/DryRockyDirt/DryRockyDirt_Height.png using Guid(df3add141d9bccf4e97ff6ab6c319438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256b03a8992845666d6184d4107ebf49') in 0.013242 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.052976 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Path_001 Abandoned_004 512.png
+  artifactKey: Guid(eb9a518448715064b9d4a5a0188572a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Path_001 Abandoned_004 512.png using Guid(eb9a518448715064b9d4a5a0188572a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d1a0852366897aa4a14f18ebaf38a3') in 0.013766 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031932 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PlainFabric/PlainFabric_AO.png
+  artifactKey: Guid(f2cd96d15ec35434a9d1a25da2376197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PlainFabric/PlainFabric_AO.png using Guid(f2cd96d15ec35434a9d1a25da2376197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd90c4557abb6f87865433a8f592a1e') in 0.013368 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.230348 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_Albedo.png
+  artifactKey: Guid(f4ed305362918144e97c242b8301811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_Albedo.png using Guid(f4ed305362918144e97c242b8301811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610969b57dfd0be1d72bbce8d6c8059a') in 0.010081 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029529 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_normal.png
+  artifactKey: Guid(f6d214f7dc5472042aa57d89d7069aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_normal.png using Guid(f6d214f7dc5472042aa57d89d7069aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adf5977319814e406c5dbe1c39147b5') in 0.013123 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003442 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Dirt_001 2K.png
+  artifactKey: Guid(f7e09274236a49c4ba205de0738a1886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Dirt_001 2K.png using Guid(f7e09274236a49c4ba205de0738a1886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f5f26e3a599752e449a0d7d61fe1e3') in 0.013605 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041175 seconds.
+  path: Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Path_001 512.png
+  artifactKey: Guid(ff56fd7450d500c44889ab75e4bce2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution/3DH FTT Path_001 512.png using Guid(ff56fd7450d500c44889ab75e4bce2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2a93ea9061673c35e9db8140d8d18c') in 0.010382 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.224659 seconds.
+  path: Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassGravel/GrassGravel_normal.png
+  artifactKey: Guid(ffb1ec4f6f1b66b44a452109100a2a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsFromOthers/WorldMaterialsFree/Resource Files/GrassGravel/GrassGravel_normal.png using Guid(ffb1ec4f6f1b66b44a452109100a2a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8f0e963802e0f01989f3630b972524') in 0.013504 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (1.5 MB). Loaded Objects now: 6834.
+Memory consumption went from 128.6 MB to 127.1 MB.
+Total: 4.993400 ms (FindLiveObjects: 0.381900 ms CreateObjectMapping: 0.198400 ms MarkObjects: 3.915500 ms  DeleteObjects: 0.496100 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
