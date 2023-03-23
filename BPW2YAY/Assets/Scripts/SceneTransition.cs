@@ -3,17 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneTransition : MonoBehaviour
+public class Menu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void PostAnimate()
     {
         SceneManager.LoadScene("Final Scene");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
