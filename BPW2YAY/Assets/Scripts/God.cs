@@ -18,20 +18,22 @@ public class CollisionBehaviour : MonoBehaviour
         AnimateCam.enabled = false;
         Effects.SetActive(false);
     }
-    void OnTriggerEnter(Collider collision)
+    void OnTriggerStay(Collider collision)
     {
         if (!collided)
         {
-            collided = true;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                collided = true;
+                Animator LakeAnimator = LakeCollider.GetComponent<Animator>();
+                LakeAnimator.enabled = true;
 
-            Animator LakeAnimator = LakeCollider.GetComponent<Animator>();
-            LakeAnimator.enabled = true;
 
+                mainCam.enabled = false;
+                AnimateCam.enabled = true;
 
-            mainCam.enabled = false;
-            AnimateCam.enabled = true;
-
-            Effects.SetActive(true);
+                Effects.SetActive(true);
+            }
         }
     }
 }
